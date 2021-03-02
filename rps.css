@@ -1,0 +1,50 @@
+
+.button {
+    margin-top: 150px;
+    position: absolute;
+    width:350px;
+    height:150px;
+    border-width:2px;
+    border-radius: 15px;
+    border-style: inset;
+    font-size: 20px;
+    font-weight:bold;
+    color: rgb(255, 255, 255);
+    border-color:rgba(0,0,0, 1);
+    background-color: rgba(54, 0, 141, 0.8);
+    outline: none
+    animation:btn;
+    position:relative;
+    animation-duration:2s;
+    animation-fill-mode:relative;
+    
+}
+@keyframes btn{
+    0% {left:-900px;}
+    100%{left:0px;}
+}
+
+body
+{
+	background-color:#09000a;
+	text-align:center;
+}
+
+.button:hover{
+    background-color:rgba(54, 0, 141, 0.8);
+    color:rgb(255, 255, 255);
+    outline: rgb(192, 155, 214);
+    border-color:rgb(192, 155, 214);
+    border-radius: 15px;
+    border-width: 10px;
+}
+.button:focus { 
+    outline: none;
+}
+
+h1 {
+    color:rgb(192, 155, 214);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight:lighter;
+}
