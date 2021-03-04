@@ -1,0 +1,19 @@
+<!DOCTYPE HTML">
+<HTML>
+  <HEAD>
+    <LINK href="calcstyle.css" rel="stylesheet" type="text/css">
+  </HEAD>
+<div class="box">
+    <h2>Calculator</h2>
+    <input type="text" id="number1" placeholder="number1"/>
+    <input type="text" id="number2" placeholder="number2"/><br>
+    <label><input type="radio" id="rad1" name="same" />Add<br></label>
+    <label><input type="radio" id="rad2" name="same" />Subtract<br></label>
+    <label><input type="radio" id="rad3" name="same" />Multiply<br></label>
+    <label><input type="radio" id="rad4" name="same" />Divide<br></label>
+    <input type="button" id="but" value="calculate" />
+    <input type="clearbutton" button onclick="document.getElementById('number1').value = ''" button onclick="document.getElementById('number2').value = ''">Clear</button>
+    <div id="res"></div>
+
+</body> 
+</HTML>
